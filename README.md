@@ -7,7 +7,7 @@ Runs entirely in your browser on free public market data. No account, no API key
 
 **Research only. Not financial advice.**
 
-[Open the live demo](https://dalemarkjullien-jpg.github.io/open-screener/) · [Read the product case study](docs/CASE_STUDY.md)
+[Open the live demo](https://dalejullien.github.io/open-screener/) · [Read the product case study](docs/CASE_STUDY.md)
 
 ![Open Screener research dashboard](docs/assets/open-screener-dashboard.png)
 
