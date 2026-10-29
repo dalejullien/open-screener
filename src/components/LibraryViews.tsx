@@ -75,7 +75,7 @@ export function GuideView({ go }: { go: (page: string) => void }) {
       <h3>A simple daily routine (5 minutes)</h3>
       <ol>
         <li>
-          <b>Check the market.</b> Open <L to="performance">Performance</L>: is BTC rising or falling? Are most coins up (green) or down? If BTC is
+          <b>Check the market.</b> Open <L to="performance">Performers</L>: is BTC rising or falling? Are most coins up (green) or down? If BTC is
           breaking down, be extra careful: most altcoins follow it.
         </li>
         <li>
@@ -106,7 +106,7 @@ export function GuideView({ go }: { go: (page: string) => void }) {
       <ul>
         <li><L to="ideas">Research Setups</L>: ranked setups from every tool, one per coin.</li>
         <li><L to="movers">Movers</L>: coins with unusual volume or climbing the volume ranking. Attention often comes before price.</li>
-        <li><L to="performance">Performance</L>: every coin from the same starting line. Find the leaders and laggards; drag the window under the chart to change the period.</li>
+        <li><L to="performance">Performers</L>: every coin from the same starting line. Find the leaders and laggards; drag the window under the chart to change the period.</li>
         <li><b>Workspace tools</b> (S-Tier, Trend, Second Chance, …): each one is a single strategy. Use them when you want to dig into one style.</li>
         <li><L to="backtests">Backtests</L>: how each strategy would have done on past data, ranked. Use it to decide which tools to trust.</li>
         <li><L to="methodology">Methodology</L>: the exact rules behind every tool.</li>

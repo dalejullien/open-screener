@@ -138,7 +138,7 @@ export default function App() {
       : page === "movers"
         ? "Movers"
         : page === "performance"
-          ? "Performance"
+          ? "Performers"
         : page === "watchlist"
           ? "Favourites"
           : page === "guide"
@@ -286,7 +286,7 @@ export default function App() {
           <span className="nav-icon">⚑</span> Movers
         </button>
         <button className={`nav ${page === "performance" ? "on" : ""}`} onClick={() => setPage("performance")}>
-          <span className="nav-icon">≈</span> Performance
+          <span className="nav-icon">≈</span> Performers
         </button>
         <div className="nav-group">Workspace</div>
         {SCANNERS.map((s) => (

@@ -15,7 +15,51 @@ Runs entirely in your browser on free public market data. No account, no API key
 
 Chart review is slow and discretionary. Open Screener turns repeatable market observations into transparent scanners, then makes their ranking, historical tests and forward outcomes inspectable. It is designed as a research instrument, not a black-box signal feed.
 
-## What it does
+## Start here
+
+Open Screener is most useful as a three-step research workflow:
+
+1. **Research Setups** creates a ranked shortlist from every scanner, with one best setup per asset.
+2. **Movers** shows where unusual price and volume activity is happening now.
+3. **Performers** puts every asset on the same starting line so you can see the market leaders, laggards and broader risk environment.
+
+Use the individual strategy pages to understand why an asset appeared, then check its chart, methodology, backtest and forward record before forming your own view.
+
+## What each section is useful for
+
+### Today
+
+| Section | Useful for |
+|---|---|
+| ◎ **Research Setups** | The daily starting point. Combines every scanner into one evidence-ranked shortlist and removes duplicate assets. Use Triggered for active conditions and Forming for developing setups. |
+| ⚑ **Movers** | Finding attention before manually opening hundreds of charts. Surfaces unusual volume, accelerating volume rank, strong price movement and proximity to recent highs. |
+| ≈ **Performers** | Comparing the whole market over one chosen window. Quickly shows which assets are leading BTC, which are lagging, whether participation is broad or narrow, and where rotation may be happening. |
+
+### Strategy workspace
+
+| Section | Useful for |
+|---|---|
+| ★ **S-Tier Setups** | A stricter checklist for pullbacks, bases and squeezes. Grades the quality of the conditions instead of treating every match equally. |
+| ↗ **Trend Continuation** | Finding established uptrends with momentum and a possible volume trigger. |
+| ◔ **Second Chance** | Looking for controlled pullbacks after a strong move instead of chasing the first breakout. |
+| ⇡ **Relative Strength** | Identifying assets outperforming BTC across multiple periods. Useful for finding persistent leaders. |
+| ⇥ **Volatility Squeeze** | Finding unusually compressed markets and monitoring them for expansion. |
+| ⤒ **Range Breakout** | Finding closes above established ranges with volume confirmation. |
+| ⌁ **Chart Patterns** | Structuring visual chart review with labelled forming, confirmed and failed patterns. |
+| ∿ **Pattern Match** | Finding similar historical price shapes and inspecting what happened next. It is comparative research, not a forecast. |
+| ≋ **Signal Confluence** | Finding assets that satisfy several independent strategies at once. Useful for prioritising deeper research. |
+
+### Research library
+
+| Section | Useful for |
+|---|---|
+| ★ **Favourites** | Keeping a local shortlist of assets you want to revisit. |
+| ? **How to use** | A guided workflow for new users, including the meaning of Triggered, Forming, Extended and Invalidated. |
+| ◷ **Backtests** | Stress-testing each ruleset on historical data. Compare sample size, average R, profit factor and drawdown rather than relying on win rate alone. |
+| ≣ **Forward Journal** | Preserving what the scanner showed when a setup first appeared, then measuring its later path. This reduces hindsight bias. |
+| ▤ **Methodology** | Reading the exact plain-English rules and parameters behind every scanner. Nothing is hidden behind a proprietary score. |
+
+## Scanner rules at a glance
 
 | Tool | Finds |
 |---|---|
@@ -56,6 +100,27 @@ npm run dev
 ```
 
 Open http://localhost:5173.
+
+## Fork and customise it
+
+Use the **Fork** button at the top of this repository to create your own copy, or clone it locally:
+
+```bash
+git clone https://github.com/dalejullien/open-screener.git
+cd open-screener
+npm install
+npm run dev
+```
+
+Good first customisations:
+
+- Change scanner parameters and ranking rules for your own research process.
+- Add a new strategy as one TypeScript file through the documented `Scanner` interface.
+- Replace the default universe with a TradingView watchlist.
+- Extend the market-data adapters to another exchange or asset class.
+- Build new exports, alerts or research views on top of the existing completed-bar data pipeline.
+
+If you find a bug or have a useful improvement, open an [issue](https://github.com/dalejullien/open-screener/issues) or submit a pull request. Please describe the research problem and include evidence for changes to scanner rules.
 
 Run the release checks:
 
