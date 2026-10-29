@@ -9,8 +9,6 @@ Runs entirely in your browser on free public market data. No account, no API key
 
 [Open the live demo](https://dalejullien.github.io/open-screener/) · [Read the product case study](docs/CASE_STUDY.md)
 
-![Open Screener research dashboard](docs/assets/open-screener-dashboard.png)
-
 ## Why it exists
 
 Chart review is slow and discretionary. Open Screener turns repeatable market observations into transparent scanners, then makes their ranking, historical tests and forward outcomes inspectable. It is designed as a research instrument, not a black-box signal feed.
@@ -24,6 +22,20 @@ Open Screener is most useful as a three-step research workflow:
 3. **Performers** puts every asset on the same starting line so you can see the market leaders, laggards and broader risk environment.
 
 Use the individual strategy pages to understand why an asset appeared, then check its chart, methodology, backtest and forward record before forming your own view.
+
+## Product tour
+
+### Research a setup
+
+Open a ranked result to see the completed-bar chart, the exact evidence that triggered it, research links and an example risk model.
+
+![Open Screener setup research view](docs/assets/open-screener-dashboard.png)
+
+### Find the market leaders
+
+Performers compares the market from one common starting point. Highlight the strongest and weakest assets, change the measurement window and click any line to continue the research.
+
+![Open Screener Performers market comparison](docs/assets/open-screener-performers.png)
 
 ## What each section is useful for
 
